@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 
 const cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-	originWhitelist: ["https://chit.hnnng.dev"], // Allow all origins
+	originWhitelist: ["https://chit.hnnng.dev", "http://localhost"], // Allow all origins
 	requireHeader: ['origin', 'x-requested-with'],
 	removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
