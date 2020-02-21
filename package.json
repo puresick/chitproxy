@@ -1,0 +1,21 @@
+{
+  "name": "chitproxy",
+  "version": "1.0.0",
+  "description": "Simple proxy based on cors-anywhere and its sample code to proxy chit api calls",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puresick/chitproxy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puresick/chitproxy/issues"
+  },
+  "homepage": "https://github.com/puresick/chitproxy#readme",
+  "devDependencies": {
+    "cors-anywhere": "^0.4.1"
+  }
+}
