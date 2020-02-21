@@ -15,7 +15,7 @@
     "url": "https://github.com/puresick/chitproxy/issues"
   },
   "homepage": "https://github.com/puresick/chitproxy#readme",
-  "devDependencies": {
+  "dependencies": {
     "cors-anywhere": "^0.4.1"
   }
 }
